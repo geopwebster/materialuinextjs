@@ -1,31 +1,37 @@
 import React from "react";
-import Document, { Html, Head, Main, NextScript } from "next/document";
+import Document, { Head, Main, NextScript } from "next/document";
 import { ServerStyleSheets } from "@material-ui/core/styles";
 import Theme from "../src/ui/Theme";
 
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <html lang="en">
         <Head>
+          <meta charSet="utf-8" />
+          <link rel="shortcut icon" href="/favicon.png" />
+          <meta
+            name="viewport"
+            content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
+          />
           {/* PWA primary color */}
           <meta name="theme-color" content={Theme.palette.primary.main} />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-          />
+          <meta property="og:type" content="website" />
+          <meta property="og:image" content="https://i.imgur.com/C8evBTM.png" />
+          <meta property="og:image:type" content="image/png" />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />
+          <meta property="og:image:alt" content="company logo" />
         </Head>
-        <body>
+        <body style={{ margin: 0 }}>
           <Main />
           <NextScript />
         </body>
-      </Html>
+      </html>
     );
   }
 }
 
-// `getInitialProps` belongs to `_document` (instead of `_app`),
-// it's compatible with server-side generation (SSG).
 MyDocument.getInitialProps = async ctx => {
   // Resolution order
   //
