@@ -13,7 +13,7 @@ import ButtonArrow from "../src/ui/ButtonArrow";
 
 import CallToAction from "../src/ui/CallToAction";
 
-import animationData from "../src/animations/landinganimation/data.json";
+import animationData from "../src/animations/landinganimation/data";
 
 // import customSoftwareIcon from "/assets/customSoftware.svg";
 // import mobileAppIcon from "/assets/mobileIcon.svg";

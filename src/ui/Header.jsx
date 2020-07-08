@@ -225,7 +225,7 @@ export default function Header(props) {
           key={`${route}${index}`}
           className={classes.tab}
           component={Link}
-          to={route.link}
+          href={route.link}
           label={route.name}
           aria-owns={route.ariaOwns}
           aira-haspopup={route.airaPopup}
@@ -238,7 +238,7 @@ export default function Header(props) {
         color="secondary"
         className={classes.button}
         component={Link}
-        to="/estimate"
+        href="/estimate"
         onClick={() => props.setValue(5)}
       >
         Free Estimate
@@ -258,7 +258,7 @@ export default function Header(props) {
           <MenuItem
             key={`${option}${i}`}
             component={Link}
-            to={option.link}
+            href={option.link}
             classes={{ root: classes.menuItem }}
             onClick={event => {
               handleMenuItemClick(event, i);
@@ -292,7 +292,7 @@ export default function Header(props) {
               divider
               button
               component={Link}
-              to={route.link}
+              href={route.link}
               selected={props.value === route.activeIndex}
               classes={{ selected: classes.drawerItemSelected }}
               onClick={() => {
@@ -314,7 +314,7 @@ export default function Header(props) {
             divider
             button
             component={Link}
-            to="/estimate"
+            href="/estimate"
             selected={props.value === 5}
             className={{
               root: classes.drawerItemEstimate,
@@ -345,7 +345,7 @@ export default function Header(props) {
             <Button
               onClick={() => props.setValue(0)}
               component={Link}
-              to="/"
+              href="/"
               className={classes.logoContainer}
               disableRipple
             >

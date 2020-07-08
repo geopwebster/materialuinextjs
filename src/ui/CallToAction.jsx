@@ -86,7 +86,7 @@ export default function CallToAction(props) {
                 variant="outlined"
                 className={classes.learnButton}
                 component={Link}
-                to="/revolution"
+                href="/revolution"
                 onClick={() => props.setValue(5)}
               >
                 <span style={{ marginRight: 15 }}>Learn more</span>
@@ -105,7 +105,7 @@ export default function CallToAction(props) {
           variant="contained"
           className={classes.estimateButton}
           component={Link}
-          to="/estimate"
+          href="/estimate"
           onClick={() => props.setValue(5)}
         >
           Free Estimate
