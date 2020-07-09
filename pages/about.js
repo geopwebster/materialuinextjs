@@ -51,6 +51,11 @@ export default function About(props) {
     <Grid container direction="column">
       <Head>
         <title key="title">About Us - History & Team | Arc Development</title>
+        <meta
+          name="description"
+          key="description"
+          content="We provide the fastest, most modern, affordable, and aesthetic software design and development services in the Midwest. Get a free online estimate now!"
+        />
       </Head>
       <Grid
         item

@@ -150,6 +150,11 @@ export default function LandingPage(props) {
         <title key="title">
           Custom Software, Mobile Apps, and Websites | Arc Development
         </title>
+        <meta
+          name="description"
+          key="description"
+          content="Pristine software custom-design from the ground up with cutting-edge optimizations. Use our free estimate calculator to check your procject cost!"
+        />
       </Head>
       <Grid item>
         {/*-----Hero Block-----*/}
