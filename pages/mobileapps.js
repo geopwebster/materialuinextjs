@@ -69,7 +69,12 @@ export default function MobileApps(props) {
           content="Bringing West Cost Technology to the Midwest | iOS/Android App Design and Development"
           key="og:title"
         />
-        <meta property="og:url" content="arc.com/mobileapps" key="og:title" />
+        <meta property="og:url" content="arc.com/mobileapps" key="og:url" />
+        <link
+          rel="canonical"
+          key="canonical"
+          href="https://wwww.arc.com/mobileapps"
+        />
       </Head>
       <Grid
         item

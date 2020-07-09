@@ -61,7 +61,12 @@ export default function About(props) {
           content="Bringing West Cost Technology to the Midwest | About Us"
           key="og:title"
         />
-        <meta property="og:url" content="arc.com/about" key="og:title" />
+        <meta property="og:url" content="arc.com/about" key="og:url" />
+        <link
+          rel="canonical"
+          key="canonical"
+          href="https://wwww.arc.com/about"
+        />
       </Head>
       <Grid
         item

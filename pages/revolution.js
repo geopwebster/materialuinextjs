@@ -61,7 +61,12 @@ export default function Revolution(props) {
           content="Bringing West Cost Technology to the Midwest | The Revolution"
           key="og:title"
         />
-        <meta property="og:url" content="arc.com/revolution" key="og:title" />
+        <meta property="og:url" content="arc.com/revolution" key="og:url" />
+        <link
+          rel="canonical"
+          key="canonical"
+          href="https://wwww.arc.com/revolution"
+        />
       </Head>
       <Grid item className={classes.rowContainer} style={{ marginTop: "2em" }}>
         <Typography

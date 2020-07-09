@@ -160,7 +160,8 @@ export default function LandingPage(props) {
           content="Bringing West Cost Technology to the Midwest | Arc Development"
           key="og:title"
         />
-        <meta property="og:url" content="arc.com" key="og:title" />
+        <meta property="og:url" content="arc.com" key="og:url" />
+        <link rel="canonical" key="canonical" href="https://wwww.arc.com" />
       </Head>
       <Grid item>
         {/*-----Hero Block-----*/}

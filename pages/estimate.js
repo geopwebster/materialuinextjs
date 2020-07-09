@@ -792,7 +792,12 @@ export default function Estimate(props) {
           content="Bringing West Cost Technology to the Midwest | Free Estimate"
           key="og:title"
         />
-        <meta property="og:url" content="arc.com/estimate" key="og:title" />
+        <meta property="og:url" content="arc.com/estimate" key="og:url" />
+        <link
+          rel="canonical"
+          key="canonical"
+          href="https://wwww.arc.com/estimate"
+        />
       </Head>
       <Grid
         item

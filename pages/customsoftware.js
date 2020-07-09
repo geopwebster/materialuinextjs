@@ -100,10 +100,11 @@ export default function CustomSoftware(props) {
           content="Bringing West Cost Technology to the Midwest | Custom Software Development"
           key="og:title"
         />
-        <meta
-          property="og:url"
-          content="arc.com/customsoftware"
-          key="og:title"
+        <meta property="og:url" content="arc.com/customsoftware" key="og:url" />
+        <link
+          rel="canonical"
+          key="canonical"
+          href="https://wwww.arc.com/customsoftware"
         />
       </Head>
       <Grid

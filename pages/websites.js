@@ -61,7 +61,12 @@ export default function Websites(props) {
           content="Bringing West Cost Technology to the Midwest | Websites"
           key="og:title"
         />
-        <meta property="og:url" content="arc.com/websites" key="og:title" />
+        <meta property="og:url" content="arc.com/websites" key="og:url" />
+        <link
+          rel="canonical"
+          key="canonical"
+          href="https://wwww.arc.com/websites"
+        />
       </Head>
       <Grid
         item
