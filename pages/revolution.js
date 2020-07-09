@@ -1,5 +1,6 @@
 import React from "react";
 import Lottie from "react-lottie";
+import Head from "next/head";
 
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
@@ -46,6 +47,11 @@ export default function Revolution(props) {
 
   return (
     <Grid container direction="column">
+      <Head>
+        <title key="title">
+          The Revolution - Cutting-Edge Software | Arc Development
+        </title>
+      </Head>
       <Grid item className={classes.rowContainer} style={{ marginTop: "2em" }}>
         <Typography
           align={matchesMD ? "center" : undefined}

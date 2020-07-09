@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "../src/Link";
+import Head from "next/head";
 import Lottie from "react-lottie";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
@@ -54,6 +55,11 @@ export default function MobileApps(props) {
 
   return (
     <Grid container direction="column">
+      <Head>
+        <title key="title">
+          iOS/Android App Design and Development | Arc Development
+        </title>
+      </Head>
       <Grid
         item
         container

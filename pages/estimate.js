@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Head from "next/head";
 import { cloneDeep } from "lodash";
 import Lottie from "react-lottie";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
@@ -777,6 +778,11 @@ export default function Estimate(props) {
 
   return (
     <Grid container direction="row">
+      <Head>
+        <title key="title">
+          Free Custom Software Estimate | Arc Development
+        </title>
+      </Head>
       <Grid
         item
         container
