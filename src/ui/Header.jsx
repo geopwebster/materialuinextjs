@@ -17,6 +17,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
+import Hidden from "@material-ui/core/Hidden";
 
 // import logo from "/assets/logo.svg";
 
@@ -204,7 +205,9 @@ export default function Header(props) {
           }
           break;
         case "/estimate":
-          props.setValue(5);
+          if (props.value !== 5) {
+            props.setValue(5);
+          }
           break;
         default:
           break;
@@ -354,7 +357,9 @@ export default function Header(props) {
                 className={classes.logo}
               />
             </Button>
-            {matches ? drawer : tabs}
+            <Hidden mdDown>{tabs}</Hidden>
+            <Hidden lgUp>{drawer}</Hidden>
+            {/* {matches ? drawer : tabs} */}
           </Toolbar>
         </AppBar>
       </ElevationScroll>

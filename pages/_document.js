@@ -9,7 +9,7 @@ export default class MyDocument extends Document {
       <html lang="en">
         <Head>
           <meta charSet="utf-8" />
-          <link rel="shortcut icon" href="/favicon.png" />
+          <link rel="icon" type="image/x-icon" href="/assets/favicon.png" />
           <meta
             name="viewport"
             content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
@@ -22,6 +22,10 @@ export default class MyDocument extends Document {
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
           <meta property="og:image:alt" content="company logo" />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Pacifico|Raleway:100,400,400i,700|Roboto:300,400,500,700&display=swap"
+          />
         </Head>
         <body style={{ margin: 0 }}>
           <Main />
