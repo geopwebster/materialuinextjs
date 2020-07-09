@@ -56,6 +56,12 @@ export default function Websites(props) {
           key="description"
           content="Completely custom designed and built from scratch to be blazing fast. Optimzed code, server-side rendering, and perfect responsive design | 99% PageSpeed Score"
         />
+        <meta
+          property="og:title"
+          content="Bringing West Cost Technology to the Midwest | Websites"
+          key="og:title"
+        />
+        <meta property="og:url" content="arc.com/websites" key="og:title" />
       </Head>
       <Grid
         item

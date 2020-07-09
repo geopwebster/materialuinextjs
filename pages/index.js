@@ -155,6 +155,12 @@ export default function LandingPage(props) {
           key="description"
           content="Pristine software custom-design from the ground up with cutting-edge optimizations. Use our free estimate calculator to check your procject cost!"
         />
+        <meta
+          property="og:title"
+          content="Bringing West Cost Technology to the Midwest | Arc Development"
+          key="og:title"
+        />
+        <meta property="og:url" content="arc.com" key="og:title" />
       </Head>
       <Grid item>
         {/*-----Hero Block-----*/}

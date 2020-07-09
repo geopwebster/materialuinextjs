@@ -787,6 +787,12 @@ export default function Estimate(props) {
           key="description"
           content="Use our free online estimate calculator to instantly check the cost of your custom software, mobile app, or website design and development project!"
         />
+        <meta
+          property="og:title"
+          content="Bringing West Cost Technology to the Midwest | Free Estimate"
+          key="og:title"
+        />
+        <meta property="og:url" content="arc.com/estimate" key="og:title" />
       </Head>
       <Grid
         item
