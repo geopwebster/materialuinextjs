@@ -80,7 +80,7 @@ export default function Services(props) {
         }}
       >
         <Typography
-          variant="h2"
+          variant="h1"
           gutterBottom
           align={matchesSM ? "center" : undefined}
         >
